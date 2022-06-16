@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <title>Grid Temlate</title>
+  <link href="../dist/output.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class='flex justify-center items-center py-4'>
+    <ol class='flex space-x-4 py-4'>
+      <li>
+        <a href="/src/index.html" class='text-xl p-4 border rounded-lg'>card</a>
+      </li>
+      <li><a href="/page/grid.html" class='text-xl p-4 border rounded-lg'>grid</a></li>
+    </ol>
+  </nav>
+  <main class=" mt-10 mb-5 mx-auto max-w-2xl">
+    <div class="grid grid-cols-5 gap-2 ">
+      <div class="h-40 col-span-3 bg-red-500"></div>
+      <div class="h-40 col-span-2 bg-yellow-500"></div>
+      <div class="h-full col-span-2 row-span-2 bg-green-600"></div>
+      <div class="h-40 col-span-3 bg-sky-500"></div>
+      <div class="h-40 col-span-3 bg-sky-500"></div>
+
+    </div>
+
+
+  </main>
+</body>
+
+</html>
